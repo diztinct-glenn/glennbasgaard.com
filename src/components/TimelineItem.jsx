@@ -27,9 +27,7 @@ function TimelineItem({ year, title, duration, company, company_url, details}) {
               </a>
             </span>
           </div>
-          <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">
-            {details}
-          </p>
+          <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400" dangerouslySetInnerHTML={{ __html: details }}></p>
         </li>
       </ol>
     </div>

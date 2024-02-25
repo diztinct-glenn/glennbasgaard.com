@@ -12,7 +12,6 @@ function Portfolio() {
             videoPlaceholder={project.videoPlaceholder}
             videoSrc={project.videoSrc}
             title={project.title}
-            stack={project.stack}
             link={project.link}
           />
         ))}
